@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "PaySecure API",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Fictional paysecure demonstration. No real customer data."
   },
   "paths": {
@@ -157,7 +157,7 @@
           "200": {
             "description": "Exported records",
             "content": {
-              "application/json": {
+              "text/csv": {
                 "schema": {
                   "type": "string"
                 }
